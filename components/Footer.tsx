@@ -70,7 +70,7 @@ const Footer = ({
           {/* Logo */}
           <div className="flex items-center gap-2">
             <Link href="/">
-              <Image src={logo} alt="Runebase Logo" title="Runebase Logo" className="h-8 w-8" />
+              <Image src={logo} alt="Runebase Logo" title="Runebase Logo" className="h-8 w-8" unoptimized />
             </Link>
             <h2 className="text-xl font-semibold">Runebase</h2>
           </div>
